@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Programming the City]]></title>
   <link href="http://rosiehoyem.github.io/atom.xml" rel="self"/>
   <link href="http://rosiehoyem.github.io/"/>
-  <updated>2013-09-25T19:54:33-04:00</updated>
+  <updated>2013-10-19T15:31:51-04:00</updated>
   <id>http://rosiehoyem.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Rosie Hoyem]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,7 +18,9 @@
     <link href="http://rosiehoyem.github.io/blog/2013/09/25/hello-world/"/>
     <updated>2013-09-25T19:45:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/09/25/hello-world</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This is my first Octopress post. Yay, I figured it out.</p>
+
+<p>Newb sucess.</p>
 ]]></content>
   </entry>
   
