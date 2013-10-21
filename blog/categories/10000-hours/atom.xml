@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Programming the City]]></title>
-  <link href="http://rosiehoyem.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 10000 Hours | Programming the City]]></title>
+  <link href="http://rosiehoyem.github.io/blog/categories/10000-hours/atom.xml" rel="self"/>
   <link href="http://rosiehoyem.github.io/"/>
   <updated>2013-10-21T13:47:45-04:00</updated>
   <id>http://rosiehoyem.github.io/</id>
@@ -34,17 +34,6 @@
 <li>Antoine de Saint-Exuprey</li>
 </ul>
 </blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/"/>
-    <updated>2013-07-25T19:45:00-04:00</updated>
-    <id>http://rosiehoyem.github.io/blog/2013/07/25/hello-world</id>
-    <content type="html"><![CDATA[<p>This is my first Octopress post. Yay, I figured it out.</p>
-
-<p>Newb success.</p>
 ]]></content>
   </entry>
   
