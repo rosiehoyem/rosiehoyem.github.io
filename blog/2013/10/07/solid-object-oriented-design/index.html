@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - Programming the City</title>
+  <title>SOLID Object-Oriented Design - Programming the City</title>
   <meta name="author" content="Rosie Hoyem">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +13,7 @@
   
     
   
-  <meta name="description" content=" Hello World With the shift in my career focus, I decided it was time to overhaul my presence online. ">
+  <meta name="description" content=" SOLID Object-Oriented Design SOLID. We want our code to be SOLID. What does this mean? ">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -21,20 +21,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/">
+  <link rel="canonical" href="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Programming the City" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Programming the City" />
-  <meta name="og:title" content="Hello World" />
-  <meta name="og:description" content=" Hello World With the shift in my career focus, I decided it was time to overhaul my presence online. " />
-  <meta name="og:url" content="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/"/>
-  <meta name="url" content="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/">
+  <meta name="og:title" content="SOLID Object-Oriented Design" />
+  <meta name="og:description" content=" SOLID Object-Oriented Design SOLID. We want our code to be SOLID. What does this mean? " />
+  <meta name="og:url" content="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/"/>
+  <meta name="url" content="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/">
   
-  <meta name="subject" content=""/>
-  <meta name="category" content=""/>
+  <meta name="subject" content="10000 HoursFlatiron School"/>
+  <meta name="category" content="10000 HoursFlatiron School"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -90,7 +90,7 @@
 
   <header>
     
-      <h1 class="entry-title">Hello World</h1>
+      <h1 class="entry-title">SOLID Object-Oriented Design</h1>
     
     
       <p class="meta">
@@ -115,8 +115,15 @@
   
 
 
-<time datetime="2013-07-25T19:45:00-04:00" pubdate data-updated="true">Jul 25<span>th</span>, 2013</time> - 
+<time datetime="2013-10-07T16:07:00-04:00" pubdate data-updated="true">Oct 7<span>th</span>, 2013</time> - 
         
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/10000-hours/'>10000 Hours</a>, <a class='category' href='/blog/categories/flatiron-school/'>Flatiron School</a>
+  
+</span>
 
 
         
@@ -125,15 +132,33 @@
   </header>
 
 
-  <div class="entry-content"><h1>Hello World</h1>
+  <div class="entry-content"><h1>SOLID Object-Oriented Design</h1>
 
-<p>With the shift in my career focus, I decided it was time to overhaul my presence online. <!-- more --></p>
+<script async class="speakerdeck-embed" data-id="7605bc60625501306b3a22000a8f9817" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
 
-<p>My home page still exists at <a href="http://rosiehoyem.com/">rosiehoyem.com</a>, but I&rsquo;ve simplified it significantly. My previous work and blog posts can still be accessed through the <a href="http://rosiehoyem.com/experience-education">Education and Experience</a> tab, but this world is no longer central to this page.</p>
 
-<p>This site will be the new home of my current thoughts and updates about what I am doing.</p>
+<p>SOLID. We want our code to be <a title="SOLID Wikipedia page" href="http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)" target="_blank">SOLID</a>. What does this mean?</p>
 
-<p>Change is good. Thanks for stopping by.</p>
+<!-- more -->
+
+
+<p>Sandi Metz&rsquo;s presentation <a title="Speaker Deck presentation: Solid Object Oriented Design" href="https://speakerdeck.com/skmetz/solid-object-oriented-design" target="_blank">SOLID Object-Oriented Design</a> outlines the pitfalls of letting software grow without careful attention to design and constant refactoring. The presentation dives into an example of a simple application consisting of a handful of classes. She skillfully shows how it can be streamlined with increased abstraction, thus lessening the chances that future changes will break the code.</p>
+
+<p>I also recently picked-up a copy of <a title="Sandi Metz" href="http://www.sandimetz.com/" target="_blank">Sandi Metz&rsquo;s Practical Object-Oriented Design in Ruby</a>. The first chapter introduces the principles of SOLID, the foundation of the rest of the book. As a newbie programmer, this seems like a fairly important idea to internalize, so here we go.</p>
+
+<p>In computer programming, SOLID is a mnemonic acronym capturing the ideas of Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion. It was originally introduced by Michael Feathers for the &ldquo;first five principles&rdquo; identified by Robert C. Martin in the early 2000s that stands for five basic principles of object-oriented programming and design.</p>
+
+<p><strong><span style="text-decoration: underline;">S</span>ingle Responsibility</strong>: A class should have one and only one responsibility.</p>
+
+<p><strong><span style="text-decoration: underline;">O</span>pen-closed</strong>: Software entities should be open for extension, but closed for modification.</p>
+
+<p><strong><span style="text-decoration: underline;">L</span>iskov Substitution</strong>: Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. (This particular definition of a subtyping relation, called <em>(strong) behavioral subtyping,</em> was initially introduced by <a title="Barbara Liskov" href="http://en.wikipedia.org/wiki/Barbara_Liskov" target="_blank">Barbara Liskov</a>, hence the name.)</p>
+
+<p><strong><span style="text-decoration: underline;">I</span>nterface Segregation</strong>: Many client-specific interfaces are better than one general-purpose interface.</p>
+
+<p><strong><span style="text-decoration: underline;">D</span>ependency Inversion Principle</strong>: Software design should depend upon abstractions, not upon concretions.</p>
+
+<p>SOLID is perhaps the most basic and foundational aspects of successful OO software design and development. The goal of these principles is to create a system that is easy to maintain and extend over time&mdash;a critical aspect of successful applications.</p>
 </div>
 
 
@@ -160,15 +185,22 @@
   
 
 
-<time datetime="2013-07-25T19:45:00-04:00" pubdate data-updated="true">Jul 25<span>th</span>, 2013</time> - 
+<time datetime="2013-10-07T16:07:00-04:00" pubdate data-updated="true">Oct 7<span>th</span>, 2013</time> - 
       
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/10000-hours/'>10000 Hours</a>, <a class='category' href='/blog/categories/flatiron-school/'>Flatiron School</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/" data-via="rhoyem" data-counturl="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/" data-via="rhoyem" data-counturl="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -178,8 +210,10 @@
 
     
     
+      <a class="pull-left" href="/blog/2013/10/06/week-two-the-cult-of-ruby/" title="Previous Post: Week Two: The Cult of Ruby">&laquo; Week Two: The Cult of Ruby</a>
     
-      <a class="pull-right" href="/blog/2013/07/28/10000-hours-of-practice/" title="Next Post: 10,000 Hours of Practice">10,000 Hours of Practice &raquo;</a>
+    
+      <a class="pull-right" href="/blog/2013/10/12/flatiron-presents-check/" title="Next Post: Flatiron Presents! Check.">Flatiron Presents! Check. &raquo;</a>
     
   </footer>
 

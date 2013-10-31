@@ -4,7 +4,7 @@
   <title><![CDATA[Programming the City]]></title>
   <link href="http://rosiehoyem.github.io/atom.xml" rel="self"/>
   <link href="http://rosiehoyem.github.io/"/>
-  <updated>2013-10-21T13:47:45-04:00</updated>
+  <updated>2013-10-30T23:16:03-04:00</updated>
   <id>http://rosiehoyem.github.io/</id>
   <author>
     <name><![CDATA[Rosie Hoyem]]></name>
@@ -14,13 +14,399 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Naming the World]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/30/naming-the-world/"/>
+    <updated>2013-10-30T11:39:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/30/naming-the-world</id>
+    <content type="html"><![CDATA[<h1>Naming the World</h1>
+
+<p>We&rsquo;re coming up on National write a Novel Month. In November you can join thousands of aspiring writers from around the country for National Novel Writing Month (NaNoWriMo). <!-- more --> This event involves writing 1,800 words a day, which after 30 days, will equal the same length as a respectable novel. My attempt to log 50,000 words last year was thwarted by a nasty flu in week two that set me hopelessly behind on my word count and work at my job (that&rsquo;s my excuse and I&rsquo;m sticking to it), but NaNoWriMo and I will meet again!</p>
+
+<p>NaNoWri was founded to make a point about writing; the difference between a good writer and a good writer that you may have heard of is largely the number of words a person logs everyday. Sucessful writers write a lot.</p>
+
+<p>The next measure of a great writer vs a good writer is the quality of the details&mdash;are they true and believeable? Do they contribute to building a story? Language is a dynamic thing, and the art of picking the right word for the right ocassion and expressing ideas clearly is both a skill that comes with experience and an art. I&rsquo;ve been thinking a lot about writing as I learn how to program. And I&rsquo;ve been reading a lot because I spend nearly two hours a day on the train.</p>
+
+<p>My current train reading is Jeff Atwood&rsquo;s Effective Programming: More Than Writing Code (<a href="http://www.hyperink.com/Effective-Programming-More-Than-Writing-Code-b1559">Get your copy here!</a>.He is the master mind behind the <a href="http://www.codinghorror.com/blog/">Coding Horror Blog</a> and also co-founded Stack Overflow. In the chapter entitled &lsquo;How to Write Without Writing&rsquo; he emphasizes how important it is for programmers to have good writing and communication skills. I found it quite amusing that he claims part of the reason he founded Stack Overflow was to &ldquo;trick&rdquo; programers into writing. Communication skills are a crucial part of being an effective programer.</p>
+
+<p>Writing and clearn communication skills are an important skill for programmers. I want to hit a few relevant topics for programmers that demonstrate this point.</p>
+
+<h2>Naming Things Well</h2>
+
+<p>The names programmers give to variables and methods in their programs matter. Naming things is often sited as one of the most difficult aspects of programing to do well. Jeff&rsquo;s Attwood&rsquo;s post <a href="http://www.codinghorror.com/blog/2006/03/i-shall-call-it-somethingmanager.html">I Shall Call It.. SomethingManager</a> lays out several very important reasons why naming things well <em>really</em> matters in programming.</p>
+
+<p>For one, carfully paying attention to naming things clearly and concisely simply makes your program better. It helps to provide better understanding in the future should your code reused after a long interval of time. It not only makes it easier to read through code and understanding what is going on, it is perhaps low hanging fruit for newbies to attain the professional appearance of work product. It may seem funny in the momen to use cute or comical names. Don&rsquo;t do it. Overly long names or single letter variables also make code more difficult to understand. <a href="http://theprofoundprogrammer.com/post/26561881517/text-single-letter-variables-who-the-fuck-do">Don&rsquo;t do it.</a></p>
+
+<p>Naming things well can also act as a form of metadata for your program. If you feel like you need comments, reconsider how you&rsquo;ve used names in your code. Comments shouldn&rsquo;t need to explain what a piece of code is doing, they should be used sparingly only to describe <em>why</em> you&rsquo;ve constructed your code the way you have. Use clear and consistent names to promote consistency within a project and on a development team. Everyone&rsquo;s productivity will benefit.</p>
+
+<blockquote><p>&ldquo;There is also a variation on this that says there are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.
+<a href="http://martinfowler.com/bliki/TwoHardThings.html">Martin Fowler</a></p></blockquote>
+
+<h2>Naming Conventions that Make Our Frameworks Work</h2>
+
+<p>Beyond the somewhat subjective benefits of making our code more clear and concise, the most popular Ruby Frameworks, including Sinatra and Rails, are constructed around a variety of naming conventions. Not abiding by these conventions will make your programs not work. When working with ruby frameworks</p>
+
+<p>Just last week my group found this out the hard way. When naming a Sequel table we used <code>candy</code> for our <code>class Candy</code> rather than <code>candies</code>. <a href="http://theprofoundprogrammer.com/post/55025985936/text-have-you-ever-heard-of-naming-conventions">This didn&rsquo;t seem like a major difference&hellip; ?</a> Low and behold, Sequal would not recognize our table because it was looking for the exact plural of our class.</p>
+
+<p>These strict naming conventions will only become more important we move into Active Record and Rails. Attention to these seemingly small details will be the difference between a things working and not.</p>
+
+<h2>Namespaces</h2>
+
+<p>The idea of namespaces is a broader topic in programming that also amplifies the importance of choosing names well and communicating clearly to the surrounding context. A namespace is a defined area or domain for a set of identifiers or names. Namespaces allows the disambiguation of homonym identifiers residing in different namespaces. Namespaces usually group names based on their functionality, it is possible to an endless number of things with a limited set of words.</p>
+
+<h2>In Summary.</h2>
+
+<p>Programming has more in common with creative writing than most would guess. The carefule use of words to describe the world around us and inside our programs demand careful attention to naming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Week Five Blog Round-up]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/30/week-five-blog-round-up/"/>
+    <updated>2013-10-30T11:30:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/30/week-five-blog-round-up</id>
+    <content type="html"><![CDATA[<h1>Week Five Blog Round-up!</h1>
+
+<p>Here are a few of the highlights from this week&rsquo;s blog posts from Flatiron students.<!-- more --></p>
+
+<p>Anders&rsquo;s post, <a href="http://coderchronicles.org/2013/10/20/what-i-learned-from-shipping-my-first-ruby-gem/">What I Learned from Shipping my First Gem</a>, was an interesting chromical of his experience creating his first gem. This past weekend Sonja and Charlotte and I shipped our first gem, so it was interesting to hear someone else&rsquo;s experience also. Anders created a simple weather gem to get a super basic weather report at the command line. Check it out: [Simple Forcast[(<a href="https://rubygems.org/gems/simple_forecast">https://rubygems.org/gems/simple_forecast</a>)</p>
+
+<p>Another interesting bit that came from our disucssion was the immense utility of another gem, Chronic](<a href="http://chronic.rubyforge.org/">http://chronic.rubyforge.org/</a>)</p>
+
+<p><a href="http://danielchangnyc.github.io/">Daniel Chang</a>
+I had to include Daniel&rsquo;s post on <a href="http://danielchangnyc.github.io/blog/2013/10/23/throw-raise/">Ruby Exceptions</a> because these are things that have been confusing me as of lately. Not any more!</p>
+
+<p>And a quick honable mention for <a href="http://manleyhimself.tumblr.com/">Manley&rsquo;s</a> post on <a href="http://manleyhimself.tumblr.com/">Bash Shortcuts</a>.</p>
+
+<p>Thursday during the Flatiron Presents, <a href="http://polycarpou.github.io/">Michael Polycarpou</a>presented the Breadth First Algorithm. Along with being a fantastic presentation that brought together several different concepts from computing. Avi pointed out that many of the classic algorithms, including the Breadth First Alforithm, can be found on the <a href="http://bigocheatsheet.com/">Big O Cheat Sheet</a>. Not sure what I&rsquo;ll do with it, but taking note for a future day when I&rsquo;m more awesome&hellip; and know what to do with a fancy algorithm.</p>
+
+<p>The other group from Thursday&rsquo;s Flatiron Presents created a fun movie app using Google&rsquo;s <a href="https://developers.google.com/freebase/">Freebase API</a> (page also includes a  nice intro video presentation). I had no idea this existed and&hellip; wow. This appears to be a powerful tool. I look forward to playing with it more when project-mode kicks in.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My First Gem]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem/"/>
+    <updated>2013-10-21T14:00:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem</id>
+    <content type="html"><![CDATA[<h1>My First Gem</h1>
+
+<p>I passed a huge milestone in my Ruby career this weekend. I published my first gem. <!-- more --></p>
+
+<p>First let me issue the disclaimer that it really isn&rsquo;t anything to get excited about. It is my first contribution to the world of ruby.</p>
+
+<p>It is called <a href="https://rubygems.org/gems/chillax">Chillax</a>. We went through and scraped some inspirational sayings from some twitter pages. The gem spits out a random quote when you type &lsquo;chillax&rsquo; into the terminal. Not super useful for anything and the code behind the gem is not complicated. We also already found bug that will need to be fixed in version 0.0.2.</p>
+
+<p>It was fun though and it made all three of us feel like we have really gotten somewhere in the past four weeks. WE MADE A GEM! We are now not only users of open source software, we are contributors. In some ways it felt like out initiation. We&rsquo;re in and this is just the beginning.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Week Four Blog Round-up]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up/"/>
+    <updated>2013-10-19T17:09:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up</id>
+    <content type="html"><![CDATA[<h1>Week 4 Blog Round-up!</h1>
+
+<p>Here at the Flatiron School we are encouraged to actively blog. We are also required to present one blog post every two weeks to the group. So much interesting stuff has been coming from my classmates, I decided to do a weekly round-up of some of my favorite posts. <!-- more -->Here are handful of interesting posts from the past week:</p>
+
+<p><a href="http://glamouracademy.github.io/">Charlote Chang</a> blew us away with a fun little blog &lsquo;presentation&rsquo; mixing variable scope and health care politics. Her post, <a href="http://glamouracademy.github.io/blog/2013/10/16/variable-scope-how-i-learned-to-stop-worrying-and-love-the-ruling-class/">Variable Scope: How I Learned to Stop Worrying and Love the Ruling Class</a>, is entertaining and informative not mention beautifully designed.</p>
+
+<p><a href="http://www.trevormckendrick.com/">Trevor McKendrick&rsquo;s</a> last post <a href="http://www.trevormckendrick.com/10-ruby-tricks/">10 Ruby Tricks</a> is nice list of new Ruby bits that I hope to incorporate into my coding immediately. How logical to set default attribute accessors with an attr_accessor_with_default method! And using the &lsquo;-c&rsquo; flat to check the syntax of ruby code without running it&mdash;brilliant.</p>
+
+<p><a href="http://ahimmelstoss.github.io/">Amanda Himelstoss&rsquo;s</a> post <a href="http://ahimmelstoss.github.io/blog/2013/10/11/using-the-mail-gem-and-launchd-to-make-a-newsletter/">Using the Mail Gem and Launchd to Make a Newsletter</a> was a great introduction to a handy little gem, the <a href="http://rubygems.org/gems/mail">Mail Gem</a>, and also a little primer on an aspect of my computer that I haven&rsquo;t explored much, Launchd. When time allows, I hope to make a little app like this collect relevant posts on a particular topic I am interested in.</p>
+
+<p><a href="http://emilyxxie.github.io">Emily Xie&rsquo;s</a> latest post on <a href="http://emilyxxie.github.io/blog/2013/10/14/dynamc-dispatch-101/">Dynamic Dispath</a> was a nice run down of one of the coolest sounding metaprogramming conepts we have covered, <em>Dynamic Dispatch!</em> It feels like you need to shout it. Emily gives some nice examples of how Dynamic Dispatch can be used to write cleaner code.</p>
+
+<p>Last, but not least a few of my classmates made a fun Name Game app and <a href="http://theevo.github.io/blog/2013/10/16/name-game-takeaways/">Theo&rsquo;s post</a> runs down how they did it and few things they learned. Four weeks into the program, it is a bit embarrassing to not know someone&rsquo;s name, so this was a great tool to fill in those last few gaps. It was also great to learn about <a href="http://pages.github.com/">Github Project Pages</a>. I need to start thinking of some fun apps to publish.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Personal Note: Different Kinds of Programmers]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers/"/>
+    <updated>2013-10-19T16:11:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers</id>
+    <content type="html"><![CDATA[<h1>Personal Note: Different Kinds of Programmers</h1>
+
+<p>Today at school we had a guest lecture come by and talk about different types of programmers. <!-- more --></p>
+
+<p>During lunch a few of us reflected on the talk and expressed different types of feelings ranging from digust to dissapointment to the first tinges of regret at our decision to enter this program. (Important detail: We were all women.)</p>
+
+<p>Eric Lubow broke his different types of programmers into five categories ranging from &ldquo;Duct Tape Programmers,&rdquo; the topic of his talk, to Lone Wolf Programmers.</p>
+
+<p>The talk was an interesting glimpse into one of subsets of tech culture. I don&rsquo;t mean to insult his talk when I say that I have high hopes that his world is not the world I am entering.</p>
+
+<p>So maybe we will have to create out world. One where diversity is valued and no jerks are allowed to enter.</p>
+
+<p>Different types of problems demand different strengths, different skill-sets and a new perspective on to solve problems. And some coding skills to implement.</p>
+
+<p>We are learning Ruby, which is a high level programming language supported by a smorgasboard to tools to make writing code easier.</p>
+
+<p>I like to think of myself as aligning with the interests of <a href="http://en.wikipedia.org/wiki/Design_Thinking">Design Thinking</a>. Another intriguing philosophy to me is <a href="http://en.wikipedia.org/wiki/Integrative_thinking">Integrative Thinking</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Refactoring Case Statements and Recycling]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/17/refactoring-case-statements-and-recycling/"/>
+    <updated>2013-10-17T16:10:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/17/refactoring-case-statements-and-recycling</id>
+    <content type="html"><![CDATA[<p>You know what stinks? Trash. You know what stinks less? Well organized trash in tidy bins.</p>
+
+<p>Code smells can also arise from long methods in poorly organized classes. <!-- more -->Have you ever walked-up to a waste receptacle and been totally confused by which bin to throw your item in? Just like how you don’t want to stand in front of the trash bin and read complicated instructions about how to throw away your sandwich container, you don’t want to create a lot of overly complicated logic piled into one class when you are programming because this is hard to communicate to other people who may read your code. It it is also more likely to break in the future.</p>
+
+<p>You want your classes to only do one thing and you want your methods short and sweet. We are going to practice refactoring a confusing ‘Recycle’ class to demonstrate. Here’s a hypothetical program for throwing a piece of trash into the Big Belly Solar trash bins:</p>
+
+<script src="https://gist.github.com/rosiehoyem/7017970.js"></script>
+
+
+<p>The instructions on the trash bins are probably correct, they are just confusing. Let’s improve the design of how we communicate this logic.</p>
+
+<p>In their book, Refactoring, Jay Fields, Shane Harvie, Martin Fowler, and Kent Beck  have several suggestions for tackling bloated classes and long, complicated methods. The example above purposely contains a case statement. Truth be told, I didn’t realize that case statements were a code smell until reading this book. In OO programming, case statements are are one of the most obvious code smells. There are several strategies for simplifying case and if/else statements to make their functionality more clear and the code less susceptible to breaking in the future.</p>
+
+<p>The first step that should be taken when refactoring is to be a solid set of tests for the bit of code that will be tackled.</p>
+
+<p>One solution could include Polymorphism. This essentially means that the new code would allow you to avoid writing an explicit conditional when you have objects whose behavior varies depending on their types. In Ruby this can be achieved  by implementing the same method signature on multiple objects and calling these methods polymorphically.</p>
+
+<p>Steps:
+1. If the conditional statement is one part of larger method, take apart the conditional statement and use Extract Method.</p>
+
+<ol>
+<li><p>If necessary use Move Method to place the conditional at the appropriate place in the object structure.</p></li>
+<li><p>Pick on of the polymorphic objects. Create a method on the polymorphic object that will override the conditional statement method. Copy the body of that leg of the conditional statement in the polymorphic method and adjust to fit.</p></li>
+<li><p>Test.</p></li>
+<li><p>Remove the copied leg of the conditional statement</p></li>
+<li><p>Test.</p></li>
+<li><p>Repeat with each leg of the conditional statement until all legs are turned into polymorphic methods.</p></li>
+</ol>
+
+
+<script src="https://gist.github.com/rosiehoyem/7023062.js"></script>
+
+
+<p>*Long Methods are BAD. Refactor them.
+In summary, the least stinky and longest lived object programs are those with short methods. Just like how you hate decoding instructions on recycling bins, since the early days of programming people have realized that the longer a procedure is, the more difficult it is to understand and more likely it is to break. The net effect is that you should be much more aggressive about decomposing methods.</p>
+
+<p>Ninety-nine percent of the time, all you have to do to shorten a method is Extract Method. Find parts of the method that seem to go nicely together and make a new method.</p>
+
+<p>Polymorphism can also bring with it many advantages when the same set of conditions appear in many places in the program. If you want to add a new type, you have to find and update all the conditionals. But with polymorphism, you just create a new class and provide the appropriate methods.
+Clients of the class don’t need to know about the polymorphism, which reduces the dependencies in your system and make it easier to update.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Code Smells and Waste Management]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/15/code-smells-and-waste-management/"/>
+    <updated>2013-10-15T16:09:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/15/code-smells-and-waste-management</id>
+    <content type="html"><![CDATA[<h1>Code Smells and Waste Management</h1>
+
+<p>Have you ever walked down the street and stared in wonder at the hussel and bussel of everyone in cars and taxis, on bikes, and on foot gets to where they need to go?<!-- more --></p>
+
+<p>I&rsquo;ve been making my way through Refactoring by Jay Fields, et al. They cover a laundry list of different ways code smells can inform how to refactor your code. A few which I will cover in the following posts include:</p>
+
+<p>Duplicate Code: Number one in the stink parade is duplicated code. If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them. The simplest duplicated code problem is when you have the same expression in two methods of the same class. Then all you have to do is Extract Method and invoke the code from both places.</p>
+
+<p>Long Methods: The object programs that live best and longest are those with short methods. Programmers new to objects often feel that no computation ever takes place, that object programs are endless sequences of delegation. When you have lived with such a program for a few years, however, you learn just how valuable all those little methods are.</p>
+
+<p>Large Classes: When a class is trying to do too much, it often shows up as too many instance variables. When a class has too many instance variables, duplicated code cannot be far behind.</p>
+
+<p>Long Parameter Lists: In our early programming days we were taught to pass in as parameters everything needed by a routine. This was understandable because the alternative was global data, and global data is evil and usually painful. Objects change this situation because if you don&rsquo;t have something you need, you can always ask another object to get it for you. Thus with objects you don&rsquo;t pass in everything the method needs; instead you pass enough so that the method can get to everything it needs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Flatiron Presents! Check.]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/12/flatiron-presents-check/"/>
+    <updated>2013-10-12T16:08:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/12/flatiron-presents-check</id>
+    <content type="html"><![CDATA[<h1>Flatiron Presents! Check.</h1>
+
+<p>Thursdays the Flatiron School has an open house and invites perspective students, former students, and other members of the tech community to come and see what we are up to. <!-- more -->To prepare for this event, our group was randomly divided up into groups of four and assigned to present one week during the next 10 weeks of the program. I had the honor and privilege of getting to go first.</p>
+
+<p>Our group decided to draw on work from <a href="http://www.poodr.com/">&ldquo;Practical Object-Oriented Design in Ruby</a>(POODR) by Sandi Metz. The book came out in late 2012 and has been the topic of much conversation within the Ruby community.</p>
+
+<p>Sandi Metz&rsquo;s book has been a great introduction to OOD. She writes in a simple and down-to-earth voice and draws on 30 years of experience. Much of her advice comes from perspective of someone who has been writing code and maintaining this same code for years. Her perspective on good OOD comes from a long-view perspective.</p>
+
+<p>While doing research for this presentation, I stumbled across an episode of the <a href="http://rubyrogues.com/087-rr-book-clubpractical-object-oriented-design-in-ruby-with-sandi-metz/">Ruby Rogues podcast (Episode 87)</a> where they do an in-depth interview with Sandi Metz about the book. She offers many interesting tidbits about her motivation for writing the book, her process, as well as her intended audience.</p>
+
+<p>Metz intended the book to provide solid guidance for novice programmers. For myself, her matter-of-fact advice was welcomed and bit refreshing. Ruby, as a language with many methods that do the same thing and many different ways to solve the same problem, allows for immense creativity and individual style, but this freedom can intimidating for a novice who doesn&rsquo;t have the experience programming or a deep understanding of the broader context in which the code will be living to choose the best design strategy.</p>
+
+<p>Last week I wrote a post on SOLID Object-Oriented Design. My presentation on Thursday also elaborated on another set of rules Sandi Metz defines for novice programmers.</p>
+
+<ol>
+<li>Classes can be no longer than 100 lines of code.</li>
+<li>Methods can be no longer than 5 lines of code.</li>
+<li>Pass no more than 4 parameters into a method. Hash options are parameters.</li>
+<li>Controllers can instantiate only one object. Therefore, views can only know about one instance variable and views should only send messages to that object (@object.collaborator.value is not allowed).</li>
+</ol>
+
+
+<p>During the interview with Sandi on Ruby Rogues, she suggests that novice programmers should follow the rules until you hate them. Only break the rules if and when you are able to fully explain why you need to break them.</p>
+
+<p>All were in agreement that the first evening of Thursday presentations went well.</p>
+
+<p>My slides can be found on Speaker Deck.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SOLID Object-Oriented Design]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design/"/>
+    <updated>2013-10-07T16:07:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/07/solid-object-oriented-design</id>
+    <content type="html"><![CDATA[<h1>SOLID Object-Oriented Design</h1>
+
+<script async class="speakerdeck-embed" data-id="7605bc60625501306b3a22000a8f9817" data-ratio="1.2994923857868" src="http://rosiehoyem.github.io//speakerdeck.com/assets/embed.js"></script>
+
+
+<p>SOLID. We want our code to be <a title="SOLID Wikipedia page" href="http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)" target="_blank">SOLID</a>. What does this mean?</p>
+
+<!-- more -->
+
+
+<p>Sandi Metz&rsquo;s presentation <a title="Speaker Deck presentation: Solid Object Oriented Design" href="https://speakerdeck.com/skmetz/solid-object-oriented-design" target="_blank">SOLID Object-Oriented Design</a> outlines the pitfalls of letting software grow without careful attention to design and constant refactoring. The presentation dives into an example of a simple application consisting of a handful of classes. She skillfully shows how it can be streamlined with increased abstraction, thus lessening the chances that future changes will break the code.</p>
+
+<p>I also recently picked-up a copy of <a title="Sandi Metz" href="http://www.sandimetz.com/" target="_blank">Sandi Metz&rsquo;s Practical Object-Oriented Design in Ruby</a>. The first chapter introduces the principles of SOLID, the foundation of the rest of the book. As a newbie programmer, this seems like a fairly important idea to internalize, so here we go.</p>
+
+<p>In computer programming, SOLID is a mnemonic acronym capturing the ideas of Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion. It was originally introduced by Michael Feathers for the &ldquo;first five principles&rdquo; identified by Robert C. Martin in the early 2000s that stands for five basic principles of object-oriented programming and design.</p>
+
+<p><strong><span style="text-decoration: underline;">S</span>ingle Responsibility</strong>: A class should have one and only one responsibility.</p>
+
+<p><strong><span style="text-decoration: underline;">O</span>pen-closed</strong>: Software entities should be open for extension, but closed for modification.</p>
+
+<p><strong><span style="text-decoration: underline;">L</span>iskov Substitution</strong>: Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. (This particular definition of a subtyping relation, called <em>(strong) behavioral subtyping,</em> was initially introduced by <a title="Barbara Liskov" href="http://en.wikipedia.org/wiki/Barbara_Liskov" target="_blank">Barbara Liskov</a>, hence the name.)</p>
+
+<p><strong><span style="text-decoration: underline;">I</span>nterface Segregation</strong>: Many client-specific interfaces are better than one general-purpose interface.</p>
+
+<p><strong><span style="text-decoration: underline;">D</span>ependency Inversion Principle</strong>: Software design should depend upon abstractions, not upon concretions.</p>
+
+<p>SOLID is perhaps the most basic and foundational aspects of successful OO software design and development. The goal of these principles is to create a system that is easy to maintain and extend over time&mdash;a critical aspect of successful applications.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Week Two: The Cult of Ruby]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/06/week-two-the-cult-of-ruby/"/>
+    <updated>2013-10-06T16:07:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/06/week-two-the-cult-of-ruby</id>
+    <content type="html"><![CDATA[<h1>Week Two: The Cult of Ruby</h1>
+
+<blockquote><p>&ldquo;When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow and exclude people, so create.”
+~_Why the Lucky Stiff</p></p></blockquote>
+
+<p>We covered <em>Why the Lucky Still this past week during our developer of the day. <!-- more --></em>Why is notorious in the Ruby community. He was a brilliant developer and prolific contributor in the early days, then about three years ago, he commit digital suicide and completely erased his presence on-line. Most of his stuff still exists in various locations on the internet and he has achieved legend status. His writing style is quirky to say the least and full of little scrawled cartoons. He paints a picture of Ruby as being something other than the run-of-mill language. This is the message many of the languages originators and most active practitioners communicate.</p>
+
+<p>At the end of last week we covered Yukihiro Matsumoto aka Matz. Matz says he created Ruby to make programmers happy, and designed it to be expressive. He is a famously nice guy, so much so that the Ruby community has adopted the saying MINSWAN, or: Matz Is Nice So We Are Nice.</p>
+
+<p>I can&rsquo;t only conclude that I am being initiated into a cult. It is the best kind of cult&mdash;one composed of smart creators who are nice.</p>
+
+<p>We&rsquo;ve spent heaps of time on Ruby this past week and most of it has been frustrating, but kind of fun. It has been frustrating because I am rewiring my brain. It is a totally different way of thinking and the best way I can describe it is by comparing it to learning a foreign language. I remember days when I was totally immersed in spanish when my brain hurt. Slowly though, almost without me noticing at first, my brain reorganized itself. It was more than a process of learning a bunch of facts about vocabulary and grammar, it changed me.</p>
+
+<p>During our Feeling Friday (and hour at the end of the day on Friday when we sit in a circle and talk about how we were feeling about the week) many members of my class described how they were now dreaming in Ruby. This is a sign that the brain is being changed, our though processes are being effected in ways we probably can&rsquo;t begin to comprehend after only two weeks.</p>
+
+<p>Ruby is a way of thinking, a way of working, and a way of being. Soon we all be card-carrying cult members. I look forward to it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RegEx and Other Funny Looking Things in Ruby]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/10/04/regex-and-other-funny-looking-things-in-ruby/"/>
+    <updated>2013-10-04T16:06:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/10/04/regex-and-other-funny-looking-things-in-ruby</id>
+    <content type="html"><![CDATA[<h1>RegEx, String Literals, and Other Funny Looking Things in Ruby</h1>
+
+<p>I just finished my second week at the <a href="http://flatironschool.com/">Flatiron School</a>. This week we&rsquo;ve continued to plow through Ruby. It&rsquo;s fun, but kind of makes my brain hurt.</p>
+
+<!-- more -->
+
+
+<p>We&rsquo;ve covered strings, arrays, hashes, symbols, how to create new methods, and started diving into object oriented programming.</p>
+
+<p>Ruby is remarkably, syntactically clear. It isn&rsquo;t quite like spoken language, but unlike many computer languages (so I hear), it isn&rsquo;t complete computer gibberish. I guess this is why so many people love it. There are several things that have been making my head hurt that look nothing like normal English and don&rsquo;t reveal their meaning at all by just looking at them. They are strange little arrangements of letters and punctuation marks that just look funny in the nice flow of clear Ruby expression (sorry Ruby, they look like gibberish). Apparently they are an important part of the language though, so here is my attempt to explain them.</p>
+
+<h2>Regular Expressions</h2>
+
+<p>The first time I can across a regular expression, it was in a classmates code solution to one of our assignments. At first I was taken aback how much shorter his solution was than mine, then I was like what in the blip-itty-blip is that thing? Enter regular expressions.</p>
+
+<p>A regular expression is a special sequence of characters that helps you match or find other strings or sets of strings, using a specialized syntax held in a pattern.</p>
+
+<p>Some of the most important String methods that use regular expressions are sub and gsub, and their in-place variants sub! and gsub!. These methods perform a search-and-replace operation using a Regexp pattern. <em>Note</em> the sub &amp; sub! replace the first occurrence of the pattern and gsub &amp; gsub! replace all occurrences. <em>Double note</em> The sub and gsub return a new string, leaving the original unmodified where as sub! and gsub! modify the string on which they are called.</p>
+
+<p>They can be confusing. Rubular is great tool to test what regular expressions can do. This site also contains a nice little table to guide you as you create your expression (cheat sheet&mdash;awesome).</p>
+
+<p>Don&rsquo;t be stupid. Use this tool wisely. A suggestion for how not to use  Regular Expressions here.</p>
+
+<blockquote><p>Some people, when confronted with a problem, think &ldquo;I know, I&rsquo;ll use regular expressions.&rdquo; Now they have two problems.
+&mdash; Jamie Zawinski</p></blockquote>
+
+<h2>String Literals</h2>
+
+<p>Next up! String literals.</p>
+
+<p>String expressions begin and end with double or single quote marks. Double-quoted string expressions are subject to backslash escape and expression substitution. Single-quoted strings are not (except for \&lsquo; and \).</p>
+
+<p>The string expressions begin with % are the special form to avoid putting too many backslashes into quoted strings. The %q/STRING/ expression is the generalized single quote. The %Q/STRING/ (or %/STRING/) expression is the generalized double quote. Any non-alphanumeric delimiter can be used in place of /, including newline. If the delimiter is an opening bracket or parenthesis, the final delimiter will be the corresponding closing bracket or parenthesis. (Embedded occurrences of the closing bracket need to be backslashed as usual.)</p>
+
+<p>Backslash notation</p>
+
+<p>\t   tab(0x09)
+\n   newline(0x0a)
+\r   carriage return(0x0d)
+\f   form feed(0x0c)
+\b   backspace(0x08)
+\a   bell(0x07)
+\e   escape(0x1b)
+\s   whitespace(0x20)
+\nnn   character in octal value nnn
+\xnn   character in hexadecimal value nn
+\cx   control x
+\C-x   control x
+\M-x   meta x (c | 0x80)
+\M-\C-x   meta control x
+\x   character x itself</p>
+
+<p>The string literal expression yields new string object each time it evaluated.</p>
+
+<h2>Splat! *</h2>
+
+<p>Splat? Eh?</p>
+
+<p>The asterisk operator that we affectionately call the splat can have several uses.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Personal Note: Why I'm Learning to Program]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/09/29/personal-note-why-im-learning-to-program/"/>
+    <updated>2013-09-29T16:05:00-04:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/09/29/personal-note-why-im-learning-to-program</id>
+    <content type="html"><![CDATA[<h1>Personal Note: Why I&rsquo;m Learning To Program</h1>
+
+<p>I quit my job, uprooted my life (again) to relocate to NYC, and am now spending most of my waking life staring at my computer. <!-- more -->I have a masters degree from an Ivy League institution and I had a career. Why did I drop everything to learn how to program? Why am I at the Flatiron School?</p>
+
+<p>I care really deeply about making the world a better place. I fear I care so much and have spent so much of the l</p>
+
+<p>There are so many problems to solve and so many different ways to solve them. I&rsquo;ve spent a lot of the last 10 years looking for the best approach to solving these big problems. I&rsquo;ve collected bits of many many skill-sets from areas such as design, policy, finance, and business in attempts at understanding more clearly what is the crux of these problems and how will they be best solved. For better or worse, this has made me the jack of all trades, master of none.</p>
+
+<p>I&rsquo;ve gained enough experience and perspective in the world at this point to understand for one, what I like to do and what I&rsquo;ll be good at, as well as what skill-sets are most effective at solving problems.</p>
+
+<p>That is why I&rsquo;m learning to program. As far as I can tell, and this is not an guess, I think by learning to program I&rsquo;ll have the most impact possible on the world. I feel strongly about this and I&rsquo;m really excite to build stuff that solves problems.</p>
+
+<p>I&rsquo;m also learning to program because I want to be a part of a world eats and breaths innovation. I&rsquo;ve had the feeling over the past few years that the tech community is that clique in high school that I just so wanted to be a part of, but I just didn&rsquo;t fit. Learning to program will be my ticket in. I have a strong suspicion that I&rsquo;ll find my people there, perhaps making .</p>
+
+<p>There is a philosophy among Rubyists, minswan. It means &ldquo;Matz (the creator of Ruby) is nice so we are nice.&rdquo; This is also on of the philosophies of the Flatiron School. We are here to learn a language with it&rsquo;s own personality and embedded values.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[10,000 Hours of Practice]]></title>
     <link href="http://rosiehoyem.github.io/blog/2013/07/28/10000-hours-of-practice/"/>
     <updated>2013-07-28T15:43:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/07/28/10000-hours-of-practice</id>
     <content type="html"><![CDATA[<h1>10,000 Hours of Practice</h1>
 
-<p>In Malcolm Gladwell&rsquo;s 2008 best seller, <a href="http://gladwell.com/outliers/">Outliers: The Story of Success</a>, he presents his research and conclusions on a common characteristic among successful people. A lot has to do with timing, luck&mdash;being in the right place at the right time. These things matter too, but practice&mdash;a lot of practice in the craft of choice, is a fundamental requirement to seize the opportunities that serendipity may present.</p>
+<p>In Malcolm Gladwell&rsquo;s 2008 best seller, <a href="http://gladwell.com/outliers/">Outliers: The Story of Success</a>, he presents his research and conclusions on a common characteristic among successful people. A lot has to do with timing, luck&mdash;being in the right place at the right time.<!-- more --> These things matter too, but practice&mdash;a lot of practice in the craft of choice, is a fundamental requirement to seize the opportunities that serendipity may present.</p>
 
 <p>Even more than 10,000 hours, Gladwell emphasizes that, for those who become true masters of their art, practice ceases to be a chore. It becomes a joy, an obsession, and the central focus of the practitioners life. Work without passion, no matter how many hours logged, will not result in true mastery.</p>
 
@@ -42,9 +428,15 @@
     <link href="http://rosiehoyem.github.io/blog/2013/07/25/hello-world/"/>
     <updated>2013-07-25T19:45:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/07/25/hello-world</id>
-    <content type="html"><![CDATA[<p>This is my first Octopress post. Yay, I figured it out.</p>
+    <content type="html"><![CDATA[<h1>Hello World</h1>
 
-<p>Newb success.</p>
+<p>With the shift in my career focus, I decided it was time to overhaul my presence online. <!-- more --></p>
+
+<p>My home page still exists at <a href="http://rosiehoyem.com/">rosiehoyem.com</a>, but I&rsquo;ve simplified it significantly. My previous work and blog posts can still be accessed through the <a href="http://rosiehoyem.com/experience-education">Education and Experience</a> tab, but this world is no longer central to this page.</p>
+
+<p>This site will be the new home of my current thoughts and updates about what I am doing.</p>
+
+<p>Change is good. Thanks for stopping by.</p>
 ]]></content>
   </entry>
   
