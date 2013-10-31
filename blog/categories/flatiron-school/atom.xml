@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron School | Programming the City]]></title>
   <link href="http://rosiehoyem.github.io/blog/categories/flatiron-school/atom.xml" rel="self"/>
   <link href="http://rosiehoyem.github.io/"/>
-  <updated>2013-10-31T09:34:36-04:00</updated>
+  <updated>2013-10-31T09:43:42-04:00</updated>
   <id>http://rosiehoyem.github.io/</id>
   <author>
     <name><![CDATA[Rosie Hoyem]]></name>
@@ -30,7 +30,7 @@
 
 <h2>Naming Things Well</h2>
 
-<blockquote><p>&ldquo;There is also a variation on this that says there are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.
+<blockquote><p>&ldquo;There is also a variation on this that says there are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.&rdquo;&ldquo;
 <a href="http://martinfowler.com/bliki/TwoHardThings.html">Martin Fowler</a></p></blockquote>
 
 <p>Part of clear communcation in code is naming things well. The names programmers give to variables and methods in their programs matter. Naming things is often sited as one of the most difficult aspects of programing to do well. Jeff&rsquo;s Attwood&rsquo;s post <a href="http://www.codinghorror.com/blog/2006/03/i-shall-call-it-somethingmanager.html">I Shall Call It.. SomethingManager</a> lays out several very important reasons why naming things well <em>really</em> matters in programming.</p>
@@ -62,9 +62,7 @@
     <link href="http://rosiehoyem.github.io/blog/2013/10/30/week-five-blog-round-up/"/>
     <updated>2013-10-30T11:30:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/10/30/week-five-blog-round-up</id>
-    <content type="html"><![CDATA[<h1>Week Five Blog Round-up!</h1>
-
-<p>Here are a few of the highlights from this week&rsquo;s blog posts from Flatiron students.<!-- more --></p>
+    <content type="html"><![CDATA[<p>Here are a few of the highlights from this week&rsquo;s blog posts from Flatiron students.<!-- more --></p>
 
 <p>Anders&rsquo;s post, <a href="http://coderchronicles.org/2013/10/20/what-i-learned-from-shipping-my-first-ruby-gem/">What I Learned from Shipping my First Gem</a>, was an interesting chromical of his experience creating his first gem. This past weekend Sonja and Charlotte and I shipped our first gem, so it was interesting to hear someone else&rsquo;s experience also. Anders created a simple weather gem to get a super basic weather report at the command line. Check it out: [Simple Forcast[(<a href="https://rubygems.org/gems/simple_forecast">https://rubygems.org/gems/simple_forecast</a>)</p>
 
@@ -86,9 +84,7 @@ I had to include Daniel&rsquo;s post on <a href="http://danielchangnyc.github.io
     <link href="http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem/"/>
     <updated>2013-10-21T14:00:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem</id>
-    <content type="html"><![CDATA[<h1>My First Gem</h1>
-
-<p>I passed a huge milestone in my Ruby career this weekend. I published my first gem. <!-- more --></p>
+    <content type="html"><![CDATA[<p>I passed a huge milestone in my Ruby career this weekend. I published my first gem. <!-- more --></p>
 
 <p>First let me issue the disclaimer that it really isn&rsquo;t anything to get excited about. It is my first contribution to the world of ruby.</p>
 
@@ -103,9 +99,7 @@ I had to include Daniel&rsquo;s post on <a href="http://danielchangnyc.github.io
     <link href="http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up/"/>
     <updated>2013-10-19T17:09:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up</id>
-    <content type="html"><![CDATA[<h1>Week 4 Blog Round-up!</h1>
-
-<p>Here at the Flatiron School we are encouraged to actively blog. We are also required to present one blog post every two weeks to the group. So much interesting stuff has been coming from my classmates, I decided to do a weekly round-up of some of my favorite posts. <!-- more -->Here are handful of interesting posts from the past week:</p>
+    <content type="html"><![CDATA[<p>Here at the Flatiron School we are encouraged to actively blog. We are also required to present one blog post every two weeks to the group. So much interesting stuff has been coming from my classmates, I decided to do a weekly round-up of some of my favorite posts. <!-- more -->Here are handful of interesting posts from the past week:</p>
 
 <p><a href="http://glamouracademy.github.io/">Charlote Chang</a> blew us away with a fun little blog &lsquo;presentation&rsquo; mixing variable scope and health care politics. Her post, <a href="http://glamouracademy.github.io/blog/2013/10/16/variable-scope-how-i-learned-to-stop-worrying-and-love-the-ruling-class/">Variable Scope: How I Learned to Stop Worrying and Love the Ruling Class</a>, is entertaining and informative not mention beautifully designed.</p>
 
@@ -124,9 +118,7 @@ I had to include Daniel&rsquo;s post on <a href="http://danielchangnyc.github.io
     <link href="http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers/"/>
     <updated>2013-10-19T16:11:00-04:00</updated>
     <id>http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers</id>
-    <content type="html"><![CDATA[<h1>Personal Note: Different Kinds of Programmers</h1>
-
-<p>Today at school we had a guest lecture come by and talk about different types of programmers. <!-- more --></p>
+    <content type="html"><![CDATA[<p>Today at school we had a guest lecture come by and talk about different types of programmers. <!-- more --></p>
 
 <p>During lunch a few of us reflected on the talk and expressed different types of feelings ranging from digust to dissapointment to the first tinges of regret at our decision to enter this program. (Important detail: We were all women.)</p>
 
