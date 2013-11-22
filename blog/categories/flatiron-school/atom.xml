@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron School | Programming the City]]></title>
   <link href="http://rosiehoyem.github.io/blog/categories/flatiron-school/atom.xml" rel="self"/>
   <link href="http://rosiehoyem.github.io/"/>
-  <updated>2013-10-31T09:58:33-04:00</updated>
+  <updated>2013-11-22T08:51:31-05:00</updated>
   <id>http://rosiehoyem.github.io/</id>
   <author>
     <name><![CDATA[Rosie Hoyem]]></name>
@@ -12,6 +12,136 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Technology Imitating Life Imitating Technology]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/11/19/technology-imitating-life-imitating-technology/"/>
+    <updated>2013-11-19T09:17:00-05:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/11/19/technology-imitating-life-imitating-technology</id>
+    <content type="html"><![CDATA[<p>Honestly, I haven’t loved learning to program. I LOVE rails though, and as a result, I think I am enjoying the nuts and bolts of programming more as well. <!-- more -->I’ve been thinking about why this could be, and I’ve come to the conclusion that rails is how my brain has been trained to work. It is designed at a higher level of abstraction that mirrors more closely how the real world works. Let me explain via the example of the city.</p>
+
+<h2>Model &ndash; View &ndash; Controller</h2>
+
+<h4>Model</h4>
+
+<p>The model of city could be compared to the laws. We are a society shaped by laws. They govern how we build (building codes), how we move through the city (traffic laws), how we relate to each other, etc.  Just a like a program that throws errors when you disobey the rules in the model, we punish citizens for breaking the law by issuing violations and putting people in prison. Just like our models, laws are a deliberate design element of our society that shape the ideal world we would like to live in and they can change.</p>
+
+<h4>View</h4>
+
+<p>The view of a city, the interface if you will, is the city itself. Just like for a user of software, the interface is the program. Our experience of both a city and a website is what we see, touch, and interact with. We know there are laws written down somewhere and people who deal with these things (lawyers, judges, and politicians), but, for the vast majority of us, we don’t really think about it.</p>
+
+<p>Architects are like front end developers. They create the built environment we see around us. They must follow the rules though. They also think about how citizens interact with interface.</p>
+
+<h4>Controller</h4>
+
+<p>The controller is like the verb of the city. It is how a person navigates the city to go from their home to work to a bar and back home. At first I had a hard thinking about a parallel structure in the city that plays the same role as the controller, then it kind of dawned on me… What in society allows us to navigate activate views and create resources… For better or worse, the only thing I could think of was currency. I don’t mean currency in strict sense of money. Currency can come in many forms, but we</p>
+
+<p>Now, why I love rails.</p>
+
+<p>A few years ago I read What Technology Wants. This new theory of technology offers three practical lessons:
+1. By listening to what technology wants we can better prepare ourselves and our children for the inevitable technologies to come.
+2. By adopting the principles of pro-action and engagement, we can steer technologies into their best roles.
+3. And by aligning ourselves with the long-term imperatives of this near-living system, we can capture its full gifts.</p>
+
+<p>The moral of the story is that when I look at rails, I see an elegant synthesis of human creations, which is exactly what I see when I look at the city. Rails is a continuation of everything that has come before. Rails is an elegant synthesis of many parts, many technologies, the fruits of many brilliant minds. It is layered and complex and seems to be a living, breathing extension of everyone who has worked on it.</p>
+
+<p>For me, technology gets really interesting when the lines between different disciplines dissolve and we come to the realization we are all talking about the same thing.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript, The BIG Todo]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/11/17/javascript-the-big-todo/"/>
+    <updated>2013-11-17T21:10:00-05:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/11/17/javascript-the-big-todo</id>
+    <content type="html"><![CDATA[<p>We’re now into week 8 at the Flatiron School and for the last couple of days we were thrown head-first into Javascript. <!-- more -->This is my ‘Cliff Note’ version of what we covered and my guide for continuing study over the coming weeks and months. Might be a helpful guide for others as well?</p>
+
+<h2>A Few Good Block Posts on Learning Javascript From People Who Know</h2>
+
+<p><em><a href="http://javascriptissexy.com/how-to-learn-javascript-properly/">How to Learn Javascript Properly</a>
+</em><a href="http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/">A Baseline for Front-End Developers</a>
+&hellip;I think we’re seeing the emphasis shift from valuing trivia to valuing tools.</p>
+
+<h2>On-line Basic Tutorials</h2>
+
+<p><em><a href="https://www.codeschool.com/paths/javascript">Code School Javascript Path</a>
+</em><a href="http://www.codecademy.com/tracks/javascript">Codecademy Javascript Track</a></p>
+
+<h2>What to Start With? (Advice From a Guest Speaker)</h2>
+
+<ol>
+<li>Javascript basics</li>
+<li>jQuery (DOM manipulation)</li>
+<li>Underscore (How to think about using objects in the browser)</li>
+<li>Frameworks: Ember/Backbone</li>
+</ol>
+
+
+<p>When to use jQuery vs. core Javascript: Use JQuery is for interacting with the DOM. Use core javascript for declaring variables, etc.</p>
+
+<h2>The Resource of Choice (“The fine manual”)</h2>
+
+<p><a href="https://developer.mozilla.org/en-US/">Mozillia Developer Network</a>
+Alas, there is no manual for front-end development, but this comes pretty close. Good front-end devs know to prefix any search engine query with mdn – for example, mdn javascript arrays – in order to avoid the for-profit plague that is w3schools.</p>
+
+<h2>Presentation by Paul Irish: <a href="http://www.youtube.com/watch?v=f7AU2Ozu8eo">Javascript Workflow</a></h2>
+
+<p><em>Tips for Text Editor Tools: Live Linting, Live Recompilation, Live Reloading
+</em>Dependency Management Systems
+<em>In Browser Dev Tools
+</em>Source URLs
+<em>Source Maps
+</em>Navigating Scripts</p>
+
+<h2>Templating Tools</h2>
+
+<p><a href="http://garann.github.io/template-chooser/">Template Chooser</a></p>
+
+<h2>Frameworks</h2>
+
+<p><a href="http://backbonejs.org/">Backbone.js</a>
+<a href="http://emberjs.com/">Ember</a>
+<a href="http://angularjs.org/">Angular</a></p>
+
+<p><a href="http://stackoverflow.com/questions/14395887/what-are-benefits-of-using-backbone-js-vs-ember-js-vs-angular-js">Lots of talk about which to use… </a></p>
+
+<h2>More Advanced Javascript Tools</h2>
+
+<p><a href="http://bower.io/">Bower</a> is a package manager for the web. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack.</p>
+
+<p>Bower is dependent on Node. Node.js is a platform built on Chrome&rsquo;s JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. <a href="http://dev.af83.com/2013/01/02/managing-rails-assets-with-bower.html">We can also Manage Rails Assets with Bower</a></p>
+
+<p><a href="http://www.jshint.com/">JSHint</a> is a tool that helps to detect errors and potential problems in your JavaScript code. The goal of this project is to help JavaScript developers write complex programs without worrying about typos and language gotchas.</p>
+
+<p><a href="http://requirejs.org/">RequireJS</a> is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.</p>
+
+<p><a href="http://underscorejs.org/">Underscore JS</a> is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in <a href="http://prototypejs.org/">Prototype.js</a> (or Ruby), but without extending any of the built-in JavaScript objects. “It&rsquo;s the tie to go along with jQuery&rsquo;s tux, and Backbone.js&rsquo;s suspenders.” (ha, cute.)</p>
+
+<p>Underscore provides 80-odd functions that support both the usual functional suspects:map, select, invoke — as well as more specialized helpers: function binding, javascript templating, deep equality testing, and so on. It delegates to built-in functions, if present, so modern browsers will use the native implementations of forEach, map, reduce, filter, every, some and indexOf.</p>
+
+<p><a href="http://www.w3schools.com/jquery/event_on.asp">jQuery’s On</a> + <a href="http://paularmstrong.github.io/swig/">SWIG Templates</a>
+The on() method attaches one or more event handlers for the selected elements and child elements. SWIG is simple, powerful, and extendable JavaScript Template Engine.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Week Seven Blog Round-Up]]></title>
+    <link href="http://rosiehoyem.github.io/blog/2013/11/17/week-seven-blog-round-up/"/>
+    <updated>2013-11-17T20:53:00-05:00</updated>
+    <id>http://rosiehoyem.github.io/blog/2013/11/17/week-seven-blog-round-up</id>
+    <content type="html"><![CDATA[<p>Another week of great posts from the Flatiron students. Here are a few of my favorites. <!-- more --></p>
+
+<p>Ivan&rsquo;s <a href="http://ivanbrennan.github.io/">Other People&rsquo;s Dotfiles</a> is an interested look at an issue I&rsquo;m not super familiar with&mdash;backing up the dot files in my home directory. I plan to return to this later and get my home directory in order.</p>
+
+<p><a href="http://irislee.github.io/">Eights Steps to Create a Simple Capybara Test</a> is a clear discussion of something that we&rsquo;re just now beginning to tackle; writing effective integration tests. This has already come in handy.</p>
+
+<p>Ohhhh the singleton class. Christopher Lee&rsquo;s post <a href="http://clee681.github.io/blog/2013/10/30/demystifying-singleton-classes-and-methods/">Demystifying Singleton Classes and Methods</a> discusses this oft misunderstood concept. (I still don&rsquo;t fully get it.)</p>
+
+<p>I also appreciate Emily Xie&rsquo;s post <a href="http://emilyxxie.github.io/blog/2013/11/04/dynamic-link-generation-in-erb-with-rails/">Link Generation in ERB With Rails</a>, as this is something I&rsquo;m currently working hard to understand.</p>
+
+<p>We&rsquo;re getting to the point where our apps have users and these users need to login. Manu&rsquo;s post [OAuth 2.0 &ndash; What You Need to Know About It for Building Your Next App] (<a href="http://manu3569.github.io/blog/2013/11/06/oauth-2-dot-0-what-you-need-to-know-about-it-for-building-your-next-app/">http://manu3569.github.io/blog/2013/11/06/oauth-2-dot-0-what-you-need-to-know-about-it-for-building-your-next-app/</a>) was a great introduction to this handy tool for creating secure authorization systems for our apps. <a href="http://developer.github.com/v3/oauth/">OAuth</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Naming the World]]></title>
@@ -76,63 +206,6 @@ I had to include Daniel&rsquo;s post on <a href="http://danielchangnyc.github.io
 <p>Thursday during the Flatiron Presents, <a href="http://polycarpou.github.io/">Michael Polycarpou</a>presented the Breadth First Algorithm. Along with being a fantastic presentation that brought together several different concepts from computing. Avi pointed out that many of the classic algorithms, including the Breadth First Alforithm, can be found on the <a href="http://bigocheatsheet.com/">Big O Cheat Sheet</a>. Not sure what I&rsquo;ll do with it, but taking note for a future day when I&rsquo;m more awesome&hellip; and know what to do with a fancy algorithm.</p>
 
 <p>The other group from Thursday&rsquo;s Flatiron Presents created a fun movie app using Google&rsquo;s <a href="https://developers.google.com/freebase/">Freebase API</a> (page also includes a  nice intro video presentation). I had no idea this existed and&hellip; wow. This appears to be a powerful tool. I look forward to playing with it more when project-mode kicks in.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Gem]]></title>
-    <link href="http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem/"/>
-    <updated>2013-10-21T14:00:00-04:00</updated>
-    <id>http://rosiehoyem.github.io/blog/2013/10/21/my-first-gem</id>
-    <content type="html"><![CDATA[<p>I passed a huge milestone in my Ruby career this weekend. I published my first gem. <!-- more --></p>
-
-<p>First let me issue the disclaimer that it really isn&rsquo;t anything to get excited about. It is my first contribution to the world of ruby.</p>
-
-<p>It is called <a href="https://rubygems.org/gems/chillax">Chillax</a>. We went through and scraped some inspirational sayings from some twitter pages. The gem spits out a random quote when you type &lsquo;chillax&rsquo; into the terminal. Not super useful for anything and the code behind the gem is not complicated. We also already found bug that will need to be fixed in version 0.0.2.</p>
-
-<p>It was fun though and it made all three of us feel like we have really gotten somewhere in the past four weeks. WE MADE A GEM! We are now not only users of open source software, we are contributors. In some ways it felt like out initiation. We&rsquo;re in and this is just the beginning.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Week Four Blog Round-up]]></title>
-    <link href="http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up/"/>
-    <updated>2013-10-19T17:09:00-04:00</updated>
-    <id>http://rosiehoyem.github.io/blog/2013/10/19/week-four-blog-round-up</id>
-    <content type="html"><![CDATA[<p>Here at the Flatiron School we are encouraged to actively blog. We are also required to present one blog post every two weeks to the group. So much interesting stuff has been coming from my classmates, I decided to do a weekly round-up of some of my favorite posts. <!-- more -->Here are handful of interesting posts from the past week:</p>
-
-<p><a href="http://glamouracademy.github.io/">Charlote Chang</a> blew us away with a fun little blog &lsquo;presentation&rsquo; mixing variable scope and health care politics. Her post, <a href="http://glamouracademy.github.io/blog/2013/10/16/variable-scope-how-i-learned-to-stop-worrying-and-love-the-ruling-class/">Variable Scope: How I Learned to Stop Worrying and Love the Ruling Class</a>, is entertaining and informative not mention beautifully designed.</p>
-
-<p><a href="http://www.trevormckendrick.com/">Trevor McKendrick&rsquo;s</a> last post <a href="http://www.trevormckendrick.com/10-ruby-tricks/">10 Ruby Tricks</a> is nice list of new Ruby bits that I hope to incorporate into my coding immediately. How logical to set default attribute accessors with an attr_accessor_with_default method! And using the &lsquo;-c&rsquo; flat to check the syntax of ruby code without running it&mdash;brilliant.</p>
-
-<p><a href="http://ahimmelstoss.github.io/">Amanda Himelstoss&rsquo;s</a> post <a href="http://ahimmelstoss.github.io/blog/2013/10/11/using-the-mail-gem-and-launchd-to-make-a-newsletter/">Using the Mail Gem and Launchd to Make a Newsletter</a> was a great introduction to a handy little gem, the <a href="http://rubygems.org/gems/mail">Mail Gem</a>, and also a little primer on an aspect of my computer that I haven&rsquo;t explored much, Launchd. When time allows, I hope to make a little app like this collect relevant posts on a particular topic I am interested in.</p>
-
-<p><a href="http://emilyxxie.github.io">Emily Xie&rsquo;s</a> latest post on <a href="http://emilyxxie.github.io/blog/2013/10/14/dynamc-dispatch-101/">Dynamic Dispath</a> was a nice run down of one of the coolest sounding metaprogramming conepts we have covered, <em>Dynamic Dispatch!</em> It feels like you need to shout it. Emily gives some nice examples of how Dynamic Dispatch can be used to write cleaner code.</p>
-
-<p>Last, but not least a few of my classmates made a fun Name Game app and <a href="http://theevo.github.io/blog/2013/10/16/name-game-takeaways/">Theo&rsquo;s post</a> runs down how they did it and few things they learned. Four weeks into the program, it is a bit embarrassing to not know someone&rsquo;s name, so this was a great tool to fill in those last few gaps. It was also great to learn about <a href="http://pages.github.com/">Github Project Pages</a>. I need to start thinking of some fun apps to publish.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Personal Note: Different Kinds of Programmers]]></title>
-    <link href="http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers/"/>
-    <updated>2013-10-19T16:11:00-04:00</updated>
-    <id>http://rosiehoyem.github.io/blog/2013/10/19/personal-note-different-kinds-of-programmers</id>
-    <content type="html"><![CDATA[<p>Today at school we had a guest lecture come by and talk about different types of programmers. <!-- more --></p>
-
-<p>During lunch a few of us reflected on the talk and expressed different types of feelings ranging from digust to dissapointment to the first tinges of regret at our decision to enter this program. (Important detail: We were all women.)</p>
-
-<p>Eric Lubow broke his different types of programmers into five categories ranging from &ldquo;Duct Tape Programmers,&rdquo; the topic of his talk, to Lone Wolf Programmers.</p>
-
-<p>The talk was an interesting glimpse into one of subsets of tech culture. I don&rsquo;t mean to insult his talk when I say that I have high hopes that his world is not the world I am entering.</p>
-
-<p>So maybe we will have to create out world. One where diversity is valued and no jerks are allowed to enter.</p>
-
-<p>Different types of problems demand different strengths, different skill-sets and a new perspective on to solve problems. And some coding skills to implement.</p>
-
-<p>We are learning Ruby, which is a high level programming language supported by a smorgasboard to tools to make writing code easier.</p>
-
-<p>I like to think of myself as aligning with the interests of <a href="http://en.wikipedia.org/wiki/Design_Thinking">Design Thinking</a>. Another intriguing philosophy to me is <a href="http://en.wikipedia.org/wiki/Integrative_thinking">Integrative Thinking</a>.</p>
 ]]></content>
   </entry>
   
